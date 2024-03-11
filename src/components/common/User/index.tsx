@@ -34,7 +34,7 @@ export const UserListComponent: React.FC<UserProps> = ({
       >
         <p>{name}</p>
         <IoIosArrowDown
-          className={`fill-white ${select ? "" : "rotate-180"} transition-all`}
+          className={`fill-white ${!select ? "" : "rotate-180"} transition-all`}
         />
       </button>
       <div
